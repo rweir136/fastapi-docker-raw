@@ -30,7 +30,7 @@ jobs:
       # Needs: context, push: true, and tags
 
       - name: Build and push Docker image
-        uses: docker/buid-push-action@v5
+        uses: docker/build-push-action@v5
         with:
             context: .
             push: true
